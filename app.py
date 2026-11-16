@@ -9,6 +9,12 @@ VOICES = {
     "Bangladeshi Male (Pradeep)": "bn-BD-PradeepNeural",
     "Indian Bengali Female (Tanishaa)": "bn-IN-TanishaaNeural",
     "Indian Bengali Male (Bashkar)": "bn-IN-BashkarNeural",
+    "English US Male - Brian (calm storyteller)": "en-US-BrianMultilingualNeural",
+"English US Male - Andrew (warm, natural)": "en-US-AndrewMultilingualNeural",
+"English US Male - Guy (deeper, dramatic)": "en-US-GuyNeural",
+"English UK Male - Ryan (cinematic)": "en-GB-RyanNeural",
+"English US Female - Ava (natural)": "en-US-AvaMultilingualNeural",
+"English US Female - Emma (bright)": "en-US-EmmaMultilingualNeural",
 }
 
 async def _synth(text: str, voice_id: str, rate: str) -> str:
